@@ -19,7 +19,6 @@ alias ls="ls -G"
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
-
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/lettuce/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/lettuce/google-cloud-sdk/path.zsh.inc'; fi
 
