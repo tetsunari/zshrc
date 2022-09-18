@@ -61,3 +61,11 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 # コマンド履歴を検索
 zinit light zdharma/history-search-multi-word
+
+# PYTHON_HOMEにインストールしたpythonのパスを指定する
+export PYTHON_HOME="/Library/Frameworks/Python.framework/Version/3.9/bin"
+export PATH="$PYTHON_HOME:$PATH"
+
+# pythonコマンドでpython3が起動するにようにaliasを設定
+alias python='python3'
+alias pip='pip3'
